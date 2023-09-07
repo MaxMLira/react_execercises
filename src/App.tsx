@@ -1,15 +1,14 @@
 import React, {useState} from 'react';
 
-import './App.css';
 import {Filter} from "./components/Filter";
-
+import {RegisterForm} from "./components/RegisterForm";
 function App() {
 
 
   return (
     <div className="App">
       {/*<Filter />*/}
-
+        <RegisterForm />
     </div>
   );
 }
